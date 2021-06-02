@@ -73,6 +73,10 @@ section{
     padding: 4% 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 nav{
     padding:2% 0;
 }
@@ -100,4 +104,23 @@ nav a{
 .yellow{
     background-color: #ffcd69 ;
     margin-right:10%;
+}
+
+/*top section styles*/
+
+.left img{
+    border-radius:50%;
+}
+
+.left, .right{
+    display:inline-block;
+}
+
+.left{
+    width:40%;
+}
+
+.right{
+    width:45%;
+    margin-left:3%;
 }

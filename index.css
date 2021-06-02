@@ -54,6 +54,7 @@ table {
     margin:0;
     max-width:100%;
     border:1px solid grey;
+    
 }
 
 html{
@@ -107,9 +108,14 @@ nav a{
 }
 
 /*top section styles*/
+.top{
+    
+    position:relative;
+}
 
 .left img{
     border-radius:50%;
+    width:70%;
 }
 
 .left, .right{
@@ -118,9 +124,23 @@ nav a{
 
 .left{
     width:40%;
+    text-align:center;
 }
 
 .right{
     width:45%;
     margin-left:3%;
+    position:absolute;
+    top:40%;
+    text-align:center;
+}
+
+/*background image section*/
+.heroImg{
+    height:50vh;
+    background-image:url('assets/footer_img.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+
 }

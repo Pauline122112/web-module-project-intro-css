@@ -50,7 +50,7 @@ table {
 
 *{
     box-sizing:border-box;
-    padding:0;
+    padding:2% 0 2% 0;
     margin:0;
     max-width:100%;
     border:1px solid grey;
@@ -139,6 +139,7 @@ nav:hover{
 
 .left, .right{
     display:inline-block;
+    
 }
 
 .left{
@@ -152,6 +153,8 @@ nav:hover{
     position:absolute;
     top:40%;
     text-align:center;
+    
+    
 }
 
 /*background image section*/
@@ -168,12 +171,23 @@ p{
     text-align:center;
     line-height:200%;
     padding:2% 10% 2% 10%;
+    background-color:#DDB9A3;
 
 }
 
 b{
     font-weight: bold;
-    font-size: 2rem;
-    
-    
+    font-size: 2rem;   
+}
+
+h5{
+    text-align:center;
+    padding-top:2%;
+    padding-bottom:2%;
+    background-color:#F9E7DC;
+
+}
+
+footer{
+    background-color:#f6d7b9;
 }
